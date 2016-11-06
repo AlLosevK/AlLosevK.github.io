@@ -1,9 +1,0 @@
-[submodule "slowaveTemplate"]
-	path = slowaveTemplate
-	url = git@github.com:AlLosevK/slowaveTemplate.git
-[submodule "DezStan"]
-	path = DezStan
-	url = https://github.com/AlLosevK/DezStan.git
-[submodule "specteh"]
-	path = specteh
-	url = git@github.com:AlLosevK/specteh.git
