@@ -3,7 +3,7 @@
 	url = git@github.com:AlLosevK/slowaveTemplate.git
 [submodule "DezStan"]
 	path = DezStan
-	url = git@github.com:AlLosevK/DezStan.git
+	url = https://github.com/AlLosevK/DezStan.git
 [submodule "specteh"]
 	path = specteh
 	url = git@github.com:AlLosevK/specteh.git
