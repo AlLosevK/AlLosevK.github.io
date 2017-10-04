@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: azure;
+    position: relative;
 }
 
 .container{
@@ -27,4 +27,10 @@ img{
     margin-right: 1%;
     height: 200px;
     background-position: cover;
+}
+
+.attention{
+    position: absolute;
+    left: 50%;
+    right: 50%;
 }
