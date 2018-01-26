@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" class="svg-google" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1D242B;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:8;stroke-linecap:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M368.4,262.9H220.1v49.4h90.4c-13.5,43-53.6,74.1-101,74.1c-58.5,0-105.9-47.4-105.9-105.9
+				c0-58.5,47.4-105.9,105.9-105.9c29.4,0,56.1,12,75.3,31.4l35.9-39c-28.6-28.1-67.9-45.4-111.1-45.4
+				c-87.7,0-158.8,71.1-158.8,158.8s71.1,158.8,158.8,158.8c76.8,0,144.1-54.6,158.8-127.1L368.4,262.9L368.4,262.9L368.4,262.9z"/>
+			<polygon class="st0" points="464.6,262.8 434.3,262.8 434.3,232.5 408.3,232.5 408.3,262.8 378,262.8 378,288.8 408.3,288.8 
+				408.3,319.1 434.3,319.1 434.3,288.8 464.6,288.8 			"/>
+		</g>
+	</g>
+</g>
+</svg>

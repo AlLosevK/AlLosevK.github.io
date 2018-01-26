@@ -2,7 +2,50 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+.svg-vk {
+  height: 3em; }
+  .svg-vk:hover g path {
+    fill: #0077c0; }
+  .svg-vk g path {
+    fill: #ffffff; }
+
+.svg-fb {
+  height: 3em; }
+  .svg-fb:hover g path {
+    fill: #0077c0; }
+  .svg-fb g path {
+    fill: #ffffff; }
+
+.svg-google {
+  height: 3em; }
+  .svg-google:hover g path {
+    fill: #0077c0; }
+  .svg-google g path {
+    fill: #ffffff; }
+
+.svg-upwork {
+  height: 3em; }
+  .svg-upwork:hover path {
+    fill: #0077c0; }
+  .svg-upwork path {
+    fill: #ffffff; }
+
+.svg-github {
+  height: 3em; }
+  .svg-github:hover g path {
+    fill: #0077c0; }
+  .svg-github g path {
+    fill: #ffffff; }
+
+.svg-slack {
+  height: 3em; }
+  .svg-slack:hover g path {
+    fill: #0077c0; }
+  .svg-slack g path {
+    fill: #ffffff; }
 
 .container {
   width: 960px;
@@ -28,22 +71,105 @@
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch; }
+  .container-col {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch; }
+
+.pseudo {
+  display: block;
+  width: 100%;
+  position: relative; }
+  .pseudo-macbook:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/macbook.png");
+    width: 710px;
+    height: 584px;
+    top: -170px;
+    left: 145px; }
 
 .header {
   background-color: #c7eeff;
   color: #1d242b; }
   .header__contact {
     width: 12em;
-    padding: 0.6em 0 0; }
+    padding: 0.6em 0 0;
+    font-size: 18px; }
+    .header__contact-item {
+      display: block; }
+    .header__contact-phone {
+      margin: 0 0 0.3em; }
   .header__nav {
-    width: 30em;
-    list-style: none; }
+    width: 30em; }
     .header__nav-item {
       text-align: center;
       -webkit-justify-content: space-around;
           -ms-flex-pack: distribute;
               justify-content: space-around;
-      margin: 2.4em 0; }
-      .header__nav-item a {
-        text-decoration: none;
-        color: #1d242b; }
+      margin: 2.1em 0;
+      text-decoration: none;
+      color: #1d242b;
+      font-size: 18px; }
+      .header__nav-item:hover {
+        color: #0077c0; }
+
+.main {
+  background-image: url("../img/main-background.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+  padding: 5.6em 0; }
+  .main-content {
+    text-align: right;
+    color: #fff; }
+    .main-content > .container-col {
+      -webkit-box-align: end;
+      -webkit-align-items: flex-end;
+          -ms-flex-align: end;
+              align-items: flex-end; }
+    .main-content__title {
+      font-size: 42px;
+      font-weight: 400;
+      margin-bottom: 0.5em; }
+    .main-content__descr {
+      font-size: 30px;
+      font-weight: 400;
+      margin-bottom: 0.5em; }
+    .main-content__form {
+      width: 15.6em; }
+      .main-content__form-item {
+        font-size: 18px;
+        font-weight: 300;
+        background-color: transparent;
+        border: 2px solid  #fff;
+        color: #fff;
+        padding: 0.5em 0.8em;
+        margin: 0.4em 0; }
+      .main-content__form-btn {
+        background-color: #fff;
+        color: #1d242b;
+        font-weight: bold; }
+  .main-feedback {
+    padding: 2em 0 0 4.5em; }
