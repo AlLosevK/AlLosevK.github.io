@@ -109,6 +109,54 @@
     height: 584px;
     top: -170px;
     left: 145px; }
+  .pseudo-notebook:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/notebook.svg");
+    width: 96px;
+    height: 96px;
+    top: 0;
+    left: 50%; }
+  .pseudo-gear:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/gear.svg");
+    width: 96px;
+    height: 96px;
+    top: 0;
+    left: 50%; }
+  .pseudo-discount:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/discount.svg");
+    width: 96px;
+    height: 96px;
+    top: 0;
+    left: 50%; }
+  .pseudo-like:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/like.svg");
+    width: 96px;
+    height: 96px;
+    top: 0;
+    left: 50%; }
 
 .header {
   background-color: #c7eeff;
@@ -173,3 +221,42 @@
         font-weight: bold; }
   .main-feedback {
     padding: 2em 0 0 4.5em; }
+
+.promo {
+  background-color: #c7eeff;
+  padding: 4em 0 5em; }
+  .promo__item {
+    padding: 7em 0 0;
+    color: #1d242b;
+    text-align: center;
+    width: 13.2em; }
+    .promo__item-title {
+      font-weight: bold;
+      margin: 0 0 2em;
+      font-size: 18px; }
+    .promo__item-descr {
+      font-size: 18px; }
+
+.about {
+  font-size: 18px;
+  background-color: #1d242b;
+  padding: 2em 0; }
+  .about__photo {
+    width: 12em;
+    margin: -8em auto 0; }
+
+.description-article {
+  color: #fff;
+  text-align: center; }
+  .description-article__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; }
+  .description-article__paragraph {
+    text-align: left;
+    margin-bottom: 2.5em; }
+    .description-article__paragraph-title {
+      font-size: 18px;
+      font-weight: bold; }
+    .description-article__paragraph-descr {
+      font-size: 18px; }
