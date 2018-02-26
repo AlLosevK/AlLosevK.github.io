@@ -11,7 +11,8 @@ var gulp = require('gulp'), // Подключаем Gulp
     pngquant = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
     cache = require('gulp-cache'), // Подключаем библиотеку кеширования
     pug = require('gulp-pug'), // Подключаем библиотеку HTML-шаблонизатор
-    autoprefixer = require('gulp-autoprefixer'); // Подключаем библиотеку для автоматического добавления префиксов
+    autoprefixer = require('gulp-autoprefixer'), // Подключаем библиотеку для автоматического добавления префиксов
+    gutil = require('gutil');
 
 gulp.task('browser-sync', function () { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync

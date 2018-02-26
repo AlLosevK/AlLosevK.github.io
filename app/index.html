@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex">
   <title>losev portfolio</title>
+  <link rel="stylesheet" href="css/normolize.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
   <link rel="stylesheet" href="css/style.css">
  </head>
 </html>
@@ -19,12 +22,12 @@
  </header>
  <main>
   <div class="main">
-   <div class="container container-col">
+   <div class="container container__col">
     <div class="main-content pseudo pseudo-macbook">
-     <div class="container-col">
+     <div class="container__col">
       <h1 class="main-content__title">Front-end разработчик</h1>
       <h2 class="main-content__descr">Александр Лосев</h2>
-      <form class="main-content__form container-col" name="main_form">
+      <form class="main-content__form container__col" name="main_form">
        <input class="main-content__form-name main-content__form-item" type="text" placeholder="Имя">
        <input class="main-content__form-email main-content__form-item" type="text" placeholder="E-Mail">
        <textarea class="main-content__form-descr main-content__form-item" type="text" placeholder="Сообщение"></textarea>
@@ -169,8 +172,9 @@
     </div>
    </div>
   </div>
-  <div class="about" id="about">
-   <div class="container container-col"><img class="about__photo" src="img/my-photo.png" alt="Моя фотография">
+  <!--include ../modules/portfolio-->
+  <div class="about pseudo pseudo-avatar" id="about">
+   <div class="container container__col">
     <article class="about__article description-article">
      <h2 class="about__title description-article__trtle">Приветствую, меня зовут Александр Лосев!</h2>
      <section class="description-article__paragraph">
@@ -192,5 +196,28 @@
     </article>
    </div>
   </div>
+  <div class="review wow">
+   <div class="container container__col">
+    <div class="container__wrap">
+     <div class="stick stick-review"></div>
+    </div>
+    <h2 class="review__title">Отзывы</h2>
+    <div class="review-slider">
+     <div class="review-item">
+      <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
+     </div>
+     <div class="review-item">
+      <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
+     </div>
+     <div class="review-item">
+      <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
+     </div>
+    </div>
+    <div class="container__wrap review__nav"></div>
+   </div>
+  </div>
  </main>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/slick.min.js"></script>
+ <script src="js/script.js"></script>
 </body>

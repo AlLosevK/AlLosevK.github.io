@@ -71,7 +71,7 @@
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch; }
-  .container-col {
+  .container__col {
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -157,6 +157,25 @@
     height: 96px;
     top: 0;
     left: 50%; }
+  .pseudo-avatar:before {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/my-photo.png");
+    width: 225px;
+    height: 225px;
+    top: -17%;
+    left: 50%; }
+
+.stick {
+  width: 3px;
+  background-color: #1d242b; }
+  .stick-review {
+    height: 8em;
+    margin: 0 auto 2em; }
 
 .header {
   background-color: #c7eeff;
@@ -237,13 +256,38 @@
     .promo__item-descr {
       font-size: 18px; }
 
+.portfolio {
+  padding: 0 0 10em;
+  font-size: 18px;
+  background-color: #fafafa; }
+  .portfolio__title {
+    margin: 0 auto 2em; }
+  .portfolio-item {
+    text-align: right;
+    margin: 0 0 2em; }
+    .portfolio-item__info {
+      text-align: center;
+      margin: 0 auto 2em;
+      width: 77%; }
+  .portfolio__nav {
+    width: 3em;
+    height: 1em;
+    position: relative;
+    margin: 0 auto; }
+
+.slick-dots > li {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #1d242b; }
+  .slick-dots > li.slick-active {
+    background-color: #0077c0; }
+
 .about {
   font-size: 18px;
   background-color: #1d242b;
-  padding: 2em 0; }
-  .about__photo {
-    width: 12em;
-    margin: -8em auto 0; }
+  padding: 7em 0 2em; }
 
 .description-article {
   color: #fff;
@@ -254,9 +298,40 @@
     color: #fff; }
   .description-article__paragraph {
     text-align: left;
-    margin-bottom: 2.5em; }
+    margin-bottom: 2.5em;
+    line-height: 1.5em; }
     .description-article__paragraph-title {
       font-size: 18px;
       font-weight: bold; }
     .description-article__paragraph-descr {
       font-size: 18px; }
+    .description-article__paragraph:last-child {
+      margin: 0; }
+
+.review {
+  padding: 0 0 10em;
+  font-size: 18px;
+  background-color: #fafafa; }
+  .review__title {
+    margin: 0 auto 2em; }
+  .review-item {
+    text-align: right;
+    margin: 0 0 2em; }
+    .review-item__info {
+      text-align: center;
+      margin: 0 auto 2em;
+      width: 77%; }
+  .review__nav {
+    width: 3em;
+    height: 1em;
+    position: relative;
+    margin: 0 auto; }
+
+.slick-dots > li {
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #1d242b; }
+  .slick-dots > li.slick-active {
+    background-color: #0077c0; }
