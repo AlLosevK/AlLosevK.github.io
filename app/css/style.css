@@ -270,26 +270,27 @@
   font-size: 18px;
   background-color: #fafafa;
   color: #1d242b; }
-  .portfolio__item {
+  .portfolio-item {
     margin: 0 0 2em; }
-    .portfolio__item-title {
-      text-transform: uppercase;
-      font-size: 2em;
-      font-weight: bold; }
-    .portfolio__item-image {
-      background-color: transparent;
-      margin: 3em 0 2em;
-      width: 40.38em;
-      height: 20em;
-      -webkit-align-self: center;
-          -ms-flex-item-align: center;
-              align-self: center; }
-    .portfolio__item-link {
-      display: block;
-      -webkit-align-self: flex-end;
-          -ms-flex-item-align: end;
-              align-self: flex-end;
-      margin: 0 4em 0 0; }
+  .portfolio-title {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold; }
+  .portfolio-image {
+    background-color: transparent;
+    margin: 3em 0 2em;
+    width: 40.38em;
+    height: 20em;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  .portfolio-link {
+    margin: 0 4em 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0; }
+  .portfolio__descr-item {
+    position: relative; }
 
 .slick-dots > li {
   -webkit-border-radius: 50%;
