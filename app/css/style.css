@@ -278,19 +278,26 @@
     font-weight: bold; }
   .portfolio-image {
     background-color: transparent;
-    margin: 3em 0 2em;
+    margin: 1em 0 0em;
     width: 40.38em;
     height: 20em;
     -webkit-align-self: center;
         -ms-flex-item-align: center;
             align-self: center; }
   .portfolio-link {
-    margin: 0 4em 0 0;
-    position: absolute;
-    bottom: 0;
-    right: 0; }
+    text-decoration: none;
+    color: #1d242b; }
   .portfolio__descr-item {
-    position: relative; }
+    position: relative;
+    overflow: visible; }
+
+.portfolio__descr-slider-b {
+  text-align: right;
+  width: 90%; }
+
+.dots {
+  position: relative;
+  height: 1em; }
 
 .slick-dots > li {
   -webkit-border-radius: 50%;

@@ -11,8 +11,9 @@ $('.portfolio-slider').slick({
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true,
-    arrow: false,
-    asNavFor: '.portfolio__descr-slider'
+    arrows: false,
+    asNavFor: '.portfolio__descr-slider',
+    appendDots: '.dots'
 });
 
 $('.portfolio__descr-slider').slick({
@@ -20,6 +21,8 @@ $('.portfolio__descr-slider').slick({
     speed: 0,
     slidesToShow: 1,
     adaptiveHeight: true,
-    arrow: false,
-    asNavFor: '.portfolio-slider'
+    arrows: false,
+    asNavFor: '.portfolio-slider',
+    dots: false,
+    draggable: false
 });
