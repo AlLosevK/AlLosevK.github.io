@@ -1,0 +1,69 @@
+.contacts
+	background-image: url('../img/contacts-background.png')
+	background-size: 100%
+	background-position: 100% 100%
+	background-repeat: no-repeat
+	padding: 0 0 70px
+	&__title
+		font-size: 36px
+		font-weight: bold
+	&__subtitle
+		font-size: 18px
+		margin-bottom: 30px
+	&__form
+		width: 76%
+		margin: 0 auto
+		padding: 20px
+		box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+		background-color: rgba(0,0,0,0.032);
+		&-main
+			width: 50%
+			&-item
+				display: block
+				height: 32px
+				width: 100%
+				margin: 8px 0
+				border: none
+				border-bottom: 2px solid  $textColor
+				padding: 1px 7px
+				font-size: 18px	
+				background-color: rgba(0,0,0,0.0);
+				&:focus
+					border-bottom: 5px solid  $activeColor
+					transition: all 0.5s
+				&:invalid
+					box-shadow: none
+					border-bottom: 5px solid  #ff5f5f
+					background-color: rgba(255, 0, 0, 0.2)
+				&-message
+					max-width: 100%
+					min-width: 100%
+					background-color: transparent
+					max-height: 100%
+					min-height: 40px !important
+			&-submit
+				width: 50%
+				background-color: $textColor
+				color: #fff
+				margin: 0 auto
+				margin-top: 2em
+		& .container__col
+				width: 49%
+				padding: 10px 20px
+				&:last-child
+					justify-content: space-between
+		&-feedback
+			width: 45%
+			padding: 5px 10px
+	& .feedback
+		padding: 0
+		margin: 0 auto
+	&__icon
+		fill: black
+		& svg 
+			& path
+				fill: $textColor
+		&:hover
+			& svg 
+				& path
+					fill: $activeColor

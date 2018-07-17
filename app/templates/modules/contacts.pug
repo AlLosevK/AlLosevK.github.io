@@ -1,0 +1,27 @@
+.contacts
+	.container.container__col
+		.container-wrap.por
+			.stick.stick-contacts
+		h2.contacts__title Вы можете написать мне
+		p.contacts__subtitle или связаться со мной в социальных сетях
+		form.contacts__form.container__wrap
+			.container__col
+				input.contacts__form-main-name.contacts__form-main-item(type="text" placeholder="Имя*")
+				input.contacts__form-main-email.contacts__form-main-item(type="email" placeholder="E-mail*")
+				input.contacts__form-main-phone.contacts__form-main-item(type="tel")
+				input.contacts__form-main-submit.contacts__form-main-item(type="button" value="Отправить")
+			.container__col
+				textarea.contacts__form-item-message.contacts__form-main-item(placeholder="Сообщение")
+				.feedback
+					a.feedback__link.contacts__icon
+						include ../../img/vk.svg
+					a.feedback__link.contacts__icon
+						include ../../img/fb.svg
+					a.feedback__link.contacts__icon
+						include ../../img/google.svg
+					a.feedback__link.contacts__icon
+						include ../../img/upwork.svg
+					a.feedback__link.contacts__icon
+						include ../../img/github.svg
+					a.feedback__link.contacts__icon
+						include ../../img/slack.svg
