@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1024px)
+  .container
+    width: 760px
+  .pseudo
+    &-macbook
+      &:before
+        width: 90%
+        top: -29%
+        left: 4%
+      &:after
+        width: 58.2%
+        left: -14.5%
+        top: -24.5%
+        background-size: 97% 58.6%
+  .contacts
+    &__form
+      &-message
+        max-height: 120px
+    &__icon
+      width: 32%
+
+@media only screen and (max-width: 800px)
+  .container
+    width: 700px
+  .review
+    padding: 0 0 5em
+    &-item
+      &__info
+        min-height: 86px
+
+@media only screen and (max-width: 640px)
+  .container
+    width: 500px
+  .portfolio
+    &__slider
+      margin-bottom: 0
+
+  .slick-dotted.slick-slider
+    margin-bottom: 0
+  .review
+    &-item
+      &__info
+        min-height: 108px
+  .contacts
+    &__form
+      &-submit
+        width: 80%
+    & .container__col
+      padding: 5px 10px
+
+@media only screen and (max-width: 320px)
+  .container
+    width: 280px
+  .header
+    display: none
+  .pseudo
+    &-macbook
+      &:before
+        display: none
+      &:after
+        display: none
+  .main
+    &-content
+      & .container__col
+        align-items: flex-start
+      &__title
+        display: none
+        &-mob
+          display: block
+          text-align: left
+      &__form
+        width: 70%
+      &__name,
+      &__email,
+      &__message
+        display: none
+    & .feedback
+      padding: 0
+      &__link
+        width: 16%

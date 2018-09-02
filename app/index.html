@@ -15,7 +15,7 @@
  <header class="header">
   <div class="container">
    <nav class="main-nav container__wrap">
-    <div class="header__contact"><span class="header__contact-phone header__contact-item">+7(967)592-66-51</span><span class="header__contact-email header__contact-item">al.losev.k@gmail.com</span></div>
+    <div class="header__contact"><a class="header__phone header__contact-item" href="tel:+79675926651">+7(967)592-66-51</a><a class="header__email header__contact-item" href="mailto:al.losev.k@gmail.com">al.losev.k@gmail.com</a></div>
     <div class="header__nav container__wrap"><a class="header__nav-item" href="#portfolio">Портфолио</a><a class="header__nav-item" href="#about">Обо мне</a><a class="header__nav-item" href="#review">Отзывы</a><a class="header__nav-item" href="#contact">Контакты</a></div>
    </nav>
   </div>
@@ -26,12 +26,13 @@
     <div class="main-content pseudo pseudo-macbook">
      <div class="container__col">
       <h1 class="main-content__title">Front-end разработчик</h1>
+      <h1 class="main-content__title-mob">Front-end</br> разработчик</h1>
       <h2 class="main-content__descr">Александр Лосев</h2>
       <form class="main-content__form container__col" name="main_form">
-       <input class="main-content__form-name main-content__form-item" type="text" placeholder="Имя">
-       <input class="main-content__form-email main-content__form-item" type="text" placeholder="E-Mail">
-       <textarea class="main-content__form-descr main-content__form-item" type="text" placeholder="Сообщение"></textarea>
-       <button class="main-content__form-btn main-content__form-item" type="submit">Оставить заявку</button>
+       <input class="main-content__name main-content__form-item" type="text" placeholder="Имя">
+       <input class="main-content__email main-content__form-item" type="text" placeholder="E-Mail">
+       <textarea class="main-content__message main-content__form-item" type="text" placeholder="Сообщение"></textarea>
+       <button class="main-content__btn main-content__form-item" type="submit">Оставить заявку</button>
       </form>
      </div>
     </div>
@@ -248,10 +249,16 @@
       <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
      </div>
      <div class="review-item">
-      <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
+      <p class="review-item__info">Aleksander was great and helped us reach our deadline for the project.</p><span class="review-item__client">-Teodor Flonta</span>
      </div>
      <div class="review-item">
-      <p class="review-item__info">I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!</p><span class="review-item__client">-Teodor Flonta</span>
+      <p class="review-item__info">Great job! Took a little longer than initially estimated but he made me know this, so that's great!</p><span class="review-item__client">-Teodor Flonta</span>
+     </div>
+     <div class="review-item">
+      <p class="review-item__info">Everything was good. The work was done quickly and on time. Thank you.</p><span class="review-item__client">-Teodor Flonta</span>
+     </div>
+     <div class="review-item">
+      <p class="review-item__info">Great. Thank you.</p><span class="review-item__client">-Teodor Flonta</span>
      </div>
     </div>
     <div class="container__wrap review__nav"></div>
@@ -266,13 +273,13 @@
     <p class="contacts__subtitle">или связаться со мной в социальных сетях</p>
     <form class="contacts__form container__wrap">
      <div class="container__col">
-      <input class="contacts__form-main-name contacts__form-main-item" type="text" placeholder="Имя*">
-      <input class="contacts__form-main-email contacts__form-main-item" type="email" placeholder="E-mail*">
-      <input class="contacts__form-main-phone contacts__form-main-item" type="tel">
-      <input class="contacts__form-main-submit contacts__form-main-item" type="button" value="Отправить">
+      <input class="contacts__form-name contacts__form-item" type="text" placeholder="Имя*">
+      <input class="contacts__form-email contacts__form-item" type="email" placeholder="E-mail">
+      <input class="contacts__form-phone contacts__form-item" type="tel">
+      <input class="contacts__form-submit contacts__form-item" type="button" value="Отправить">
      </div>
      <div class="container__col">
-      <textarea class="contacts__form-item-message contacts__form-main-item" placeholder="Сообщение"></textarea>
+      <textarea class="contacts__form-message contacts__form-item" placeholder="Сообщение"></textarea>
       <div class="feedback"><a class="feedback__link contacts__icon"><?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" class="svg-vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
 <g>
@@ -392,10 +399,10 @@
     </form>
    </div>
   </div>
-  <footer class="footer">
-   <div class="container container__wrap"><a class="footer__item footer__item-tel" href="tel:+79675926651">+7(967) 592-66-51</a><a class="footer__item footer__item-email" href="al.losev.k@gmail.com">al.losev.k@gmail.com</a><a class="footer__item footer__item-privacy" href="#">Политика Конфиденциальности</a></div>
-  </footer>
  </main>
+ <footer class="footer">
+  <div class="container container__wrap"><a class="footer__item footer__item-tel" href="tel:+79675926651">+7(967) 592-66-51</a><a class="footer__item footer__item-email" href="al.losev.k@gmail.com">al.losev.k@gmail.com</a><a class="footer__item footer__item-privacy" href="#">Политика Конфиденциальности</a></div>
+ </footer>
  <script src="js/jquery.min.js"></script>
  <script src="js/slick.min.js"></script>
  <script src="js/script.js"></script>

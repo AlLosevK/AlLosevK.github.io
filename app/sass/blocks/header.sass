@@ -1,22 +1,41 @@
 .header
     background-color: $mainColor
     color: $textColor
+    & .container__wrap
+      align-items: center
     &__contact
         width: 12em
-        padding: 0.6em 0 0
+        padding: 0
         font-size: 18px
+        z-index: 1
+        margin-top: -8px
         &-item
             display: block
-        &-phone
-            margin: 0 0 0.3em
+    &__phone
+        margin: 0 0 0.5em
+        font-size: 18px
+        color: $textColor
+        text-decoration: none
+        &:hover
+          color: $activeColor
+          transition: all 0.3s
+    &__email
+        font-size: 18px
+        color: $textColor
+        text-decoration: none
+        &:hover
+          color: $activeColor
+          transition: all 0.3s
     &__nav
         width: 30em
+        min-height: 90px
         &-item
             text-align: center
             justify-content: space-around
-            margin: 2.1em 0
-            text-decoration: none              
+            margin: 0
+            text-decoration: none
             color: $textColor
             font-size: 18px
             &:hover
                 color: $activeColor
+                transition: all 0.3s
