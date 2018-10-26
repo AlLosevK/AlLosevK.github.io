@@ -109,7 +109,7 @@ svg.svg-slack {
     background-image: url("../img/macbook.png");
     width: 80%;
     height: 145%;
-    top: -44%;
+    top: -40%;
     left: 15%;
     background-position: 50% -200%;
     -webkit-background-size: 91% 100%;
@@ -121,7 +121,7 @@ svg.svg-slack {
     background-image: url("../img/macbook-display.png");
     width: 52%;
     height: 63%;
-    top: -24%;
+    top: -20%;
     left: -1.5%;
     -webkit-background-size: 97% 61.5%;
             background-size: 97% 61.5%; }
@@ -137,6 +137,22 @@ svg.svg-slack {
     height: 96px;
     top: 0;
     left: 50%; }
+  .pseudo-notebook:after {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/object.png");
+    background-position: 0 140%;
+    width: 497px;
+    height: 538px;
+    bottom: 220px;
+    right: 40px;
+    -webkit-transform: rotate(13deg);
+        -ms-transform: rotate(13deg);
+            transform: rotate(13deg); }
   .pseudo-gear:before {
     content: '';
     position: absolute;
@@ -161,6 +177,18 @@ svg.svg-slack {
     height: 96px;
     top: 0;
     left: 50%; }
+  .pseudo-discount:after {
+    content: '';
+    position: absolute;
+    -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    background-repeat: no-repeat;
+    background-image: url("../img/mouse.png");
+    width: 96px;
+    height: 96px;
+    top: -45%;
+    left: 35%; }
   .pseudo-like:before {
     content: '';
     position: absolute;
@@ -181,6 +209,8 @@ svg.svg-slack {
             transform: translate(-50%, 0);
     background-repeat: no-repeat;
     background-image: url("../img/my-photo.png");
+    -webkit-background-size: cover;
+            background-size: cover;
     width: 225px;
     height: 225px;
     top: -17%;
@@ -217,7 +247,7 @@ svg.svg-slack {
     padding: 0;
     font-size: 18px;
     z-index: 1;
-    margin-top: -8px; }
+    margin-top: -20px; }
     .header__contact-item {
       display: block; }
   .header__phone {
@@ -275,6 +305,8 @@ svg.svg-slack {
       font-size: 42px;
       font-weight: 400;
       margin-bottom: 0.5em; }
+      .main-content__title-mob {
+        display: none; }
     .main-content__descr {
       margin-bottom: 0.8em; }
     .main-content__form {
@@ -338,12 +370,13 @@ svg.svg-slack {
     font-weight: bold; }
   .portfolio-image {
     background-color: transparent;
-    margin: 1em 0 0em;
-    width: 40.38em;
-    height: 20em;
+    margin: 1em 0 0;
+    height: 100%;
+    width: 100%;
     -webkit-align-self: center;
         -ms-flex-item-align: center;
-            align-self: center; }
+            align-self: center;
+    padding: 0 10px; }
   .portfolio-link {
     text-decoration: none;
     color: #1d242b; }
@@ -444,7 +477,10 @@ svg.svg-slack {
     padding: 20px;
     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.032); }
+    background-color: rgba(0, 0, 0, 0.032);
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
     .contacts__form-item {
       display: block;
       height: 32px;
@@ -489,10 +525,7 @@ svg.svg-slack {
       width: 49%;
       padding: 10px 20px; }
       .contacts__form .container__col:last-child {
-        -webkit-box-pack: justify;
-        -webkit-justify-content: space-between;
-            -ms-flex-pack: justify;
-                justify-content: space-between; }
+        width: 100%; }
     .contacts__form-feedback {
       width: 45%;
       padding: 5px 10px; }
@@ -528,13 +561,13 @@ svg.svg-slack {
   .pseudo-macbook:before {
     width: 90%;
     top: -29%;
-    left: 4%; }
+    left: 0%; }
   .pseudo-macbook:after {
     width: 58.2%;
-    left: -14.5%;
-    top: -24.5%;
-    -webkit-background-size: 97% 58.6%;
-            background-size: 97% 58.6%; }
+    left: -18.5%;
+    top: -9%;
+    -webkit-background-size: 97% 61.6%;
+            background-size: 97% 61.6%; }
   .contacts__form-message {
     max-height: 120px; }
   .contacts__icon {
@@ -546,31 +579,124 @@ svg.svg-slack {
   .review {
     padding: 0 0 5em; }
     .review-item__info {
-      min-height: 86px; } }
+      min-height: 86px; }
+  .pseudo-macbook:before {
+    left: -5%; }
+  .pseudo-macbook:after {
+    left: -23.5%; } }
 
 @media only screen and (max-width: 640px) {
   .container {
-    width: 500px; }
+    width: 90vw; }
+  .promo {
+    padding: 2em 0 3em; }
+    .promo .container__wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+    .promo__item {
+      width: 100%;
+      padding: 20px 0 20px 5em;
+      display: -webkit-flex;
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: stretch;
+      -webkit-align-items: stretch;
+          -ms-flex-align: stretch;
+              align-items: stretch;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+      .promo__item-title {
+        width: 100%;
+        margin-bottom: .2em;
+        text-align: left; }
+      .promo__item-descr {
+        width: 100%;
+        text-align: left; }
+      .promo__item::before {
+        width: 56px;
+        height: 56px;
+        left: 15%;
+        top: 25%; }
   .portfolio__slider {
     margin-bottom: 0; }
   .slick-dotted.slick-slider {
     margin-bottom: 0; }
   .review-item__info {
     min-height: 108px; }
-  .contacts__form-submit {
-    width: 80%; }
+  .contacts__form {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+    .contacts__form-submit {
+      width: 80%; }
   .contacts .container__col {
-    padding: 5px 10px; } }
+    padding: 5px 10px; }
+  .contacts__icon {
+    width: 33%; }
+  .contacts__form .container__col {
+    width: 100% !important; }
+  .pseudo-avatar:before {
+    top: -12%;
+    width: 185px;
+    height: 185px;
+    height: 43%; }
+  .pseudo-macbook::before {
+    height: 100%;
+    right: -85% !important;
+    left: auto; }
+  .pseudo-macbook::after {
+    top: -14.8%;
+    right: -35.3%;
+    left: auto; }
+  .pseudo-discount:after {
+    display: none; }
+  .pseudo-notebook::after {
+    display: none; }
+  .footer__item {
+    min-width: 49%;
+    text-align: center;
+    margin: 1em 0 0; }
+    .footer__item:last-child {
+      margin-bottom: 1em; }
+  .footer .container__wrap {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; } }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 321px) {
   .container {
     width: 280px; }
   .header {
     display: none; }
-  .pseudo-macbook:before {
-    display: none; }
-  .pseudo-macbook:after {
-    display: none; }
+  .pseudo-macbook::before {
+    height: 100%;
+    right: -85% !important;
+    left: auto; }
+  .pseudo-macbook::after {
+    top: -14.8%;
+    right: -35.3%;
+    left: auto; }
+  .pseudo-avatar::before {
+    top: -7%; }
   .main-content .container__col {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
@@ -594,7 +720,8 @@ svg.svg-slack {
   padding: 5px 10px;
   margin: 0 auto; }
   .feedback__link {
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
 
 .por {
   position: relative;

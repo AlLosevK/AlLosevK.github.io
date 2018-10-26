@@ -8,8 +8,7 @@
 			.container__col
 				input.contacts__form-name.contacts__form-item(type="text" placeholder="Имя*")
 				input.contacts__form-email.contacts__form-item(type="email" placeholder="E-mail")
-				input.contacts__form-phone.contacts__form-item(type="tel")
-				input.contacts__form-submit.contacts__form-item(type="button" value="Отправить")
+				input.contacts__form-phone.contacts__form-item(type="tel" placeholder="+7(123)456-78-90")
 			.container__col
 				textarea.contacts__form-message.contacts__form-item(placeholder="Сообщение")
 				.feedback
@@ -25,3 +24,5 @@
 						include ../../img/github.svg
 					a.feedback__link.contacts__icon
 						include ../../img/slack.svg
+			.container__col
+				input.contacts__form-submit.contacts__form-item(type="button" value="Отправить")

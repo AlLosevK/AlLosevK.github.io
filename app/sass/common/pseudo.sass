@@ -13,7 +13,7 @@
 			background-image: url("../img/macbook.png")
 			width: 80%
 			height: 145%
-			top: -44%
+			top: -40%
 			left: 15%
 			background-position: 50% -200%
 			background-size: 91% 100%
@@ -24,7 +24,7 @@
 			background-image: url('../img/macbook-display.png')
 			width: 52%
 			height: 63%
-			top: -24%
+			top: -20%
 			left: -1.5%
 			background-size: 97% 61.5%
 	&-notebook
@@ -38,6 +38,18 @@
 			height: 96px
 			top: 0
 			left: 50%
+		&:after
+			content: ''
+			position: absolute
+			transform: translate(-50%, 0)
+			background-repeat: no-repeat
+			background-image: url('../img/object.png')
+			background-position: 0 140%
+			width: 497px
+			height: 538px
+			bottom: 220px
+			right: 40px
+			transform: rotate(13deg)
 	&-gear
 		&:before
 			content: ''
@@ -60,6 +72,16 @@
 			height: 96px
 			top: 0
 			left: 50%
+		&:after
+			content: ''
+			position: absolute
+			transform: translate(-50%, 0)
+			background-repeat: no-repeat
+			background-image: url('../img/mouse.png')
+			width: 96px
+			height: 96px
+			top: -45%
+			left: 35%
 	&-like
 		&:before
 			content: ''
@@ -78,6 +100,7 @@
 			transform: translate(-50%, 0)
 			background-repeat: no-repeat
 			background-image: url('../img/my-photo.png')
+			background-size: cover
 			width: 225px
 			height: 225px
 			top: -17%
