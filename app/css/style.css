@@ -555,7 +555,7 @@ svg.svg-slack {
       -o-transition: all 0.3s;
       transition: all 0.3s; }
 
-@media only screen and (max-width: 1024px) {
+@media (max-width: 1199px) {
   .container {
     width: 760px; }
   .pseudo-macbook:before {
@@ -573,7 +573,7 @@ svg.svg-slack {
   .contacts__icon {
     width: 32%; } }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 991px) {
   .container {
     width: 700px; }
   .review {
@@ -585,7 +585,7 @@ svg.svg-slack {
   .pseudo-macbook:after {
     left: -23.5%; } }
 
-@media only screen and (max-width: 640px) {
+@media (max-width: 767px) {
   .container {
     width: 90vw; }
   .promo {
@@ -653,16 +653,7 @@ svg.svg-slack {
   .pseudo-avatar:before {
     top: -12%;
     width: 185px;
-    height: 185px;
-    height: 43%; }
-  .pseudo-macbook::before {
-    height: 100%;
-    right: -85% !important;
-    left: auto; }
-  .pseudo-macbook::after {
-    top: -14.8%;
-    right: -35.3%;
-    left: auto; }
+    height: 185px; }
   .pseudo-discount:after {
     display: none; }
   .pseudo-notebook::after {
@@ -682,7 +673,7 @@ svg.svg-slack {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; } }
 
-@media only screen and (max-width: 321px) {
+@media (max-width: 480px) {
   .container {
     width: 280px; }
   .header {
