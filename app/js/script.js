@@ -4,9 +4,11 @@ $('.review-slider').slick({
     speed: 3000,
     slidesToShow: 1,
     autoplay: true,
+    arrows: false,
     autoplaySpeed: 2000,
     adaptiveHeight: true
 });
+
 $('.portfolio-slider').slick({
     dots: true,
     infinite: true,
@@ -29,4 +31,13 @@ $('.portfolio__descr-slider').slick({
     asNavFor: '.portfolio-slider',
     dots: false,
     draggable: false
+});
+
+$(document).ready(function (){
+  $(".main-content__btn.main-content__btn-mob").on("click", function(){
+    $(".main-content__background-mob, .main-content__form").addClass("is-active");
+  });
+  $(".main-content__background-mob").on("click", function(){
+    $(".main-content__background-mob, .main-content__form").removeClass("is-active");
+  });
 });

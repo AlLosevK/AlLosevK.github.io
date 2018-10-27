@@ -62,8 +62,19 @@
       &::before
         width: 56px
         height: 56px
-        left: 15%
+        left: 5%
         top: 25%
+  .main
+    &-content
+      &__title
+        display: none
+        &-mob
+          display: block
+          text-align: right
+  .header
+    & .container
+      width: 95vw
+      margin: 0 auto 0 0
   .portfolio
     &__slider
       margin-bottom: 0
@@ -109,9 +120,16 @@
 
 @media (max-width: 480px)
   .container
-    width: 280px
+    width: 90vw
   .header
-    display: none
+    position: absolute
+    background-color: transparent
+    &__nav
+      display: none
+    &__contact
+      margin: 10px
+      &-item
+        color: #fff
   .pseudo
     &-macbook
       &::before
@@ -125,6 +143,9 @@
     &-avatar
       &::before
         top: -7%
+  .contacts
+    &__form
+      width: 100%
   .main
     &-content
       & .container__col
@@ -134,13 +155,41 @@
         &-mob
           display: block
           text-align: left
+      &__btn
+        &-mob
+          display: block
+          width: 70%
       &__form
-        width: 70%
-      &__name,
-      &__email,
-      &__message
         display: none
+        position: fixed
+        z-index: 3
+        transform: translate(-50%, 0)
+        top: 5%
+        left: 50%
+        min-width: 250px
+        width: 80vw
+        height: 70vh
+        background-color: $activeColor
+        padding: 40px 20px
+        &.is-active
+          display: block
+      &__background
+        &-mob
+          display: none
+          position: fixed
+          top: 0
+          left: 0
+          width: 100vw
+          height: 100vh
+          background-color: #000
+          opacity: 0.8
+          z-index: 2
+          &.is-active
+            display: block
     & .feedback
       padding: 0
       &__link
         width: 16%
+
+
+        main-content__btn-mob
