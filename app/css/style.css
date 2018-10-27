@@ -294,7 +294,8 @@ svg.svg-slack {
   background-repeat: no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
-  padding: 5.6em 0; }
+  padding: 5.6em 0;
+  overflow: hidden; }
   .main-content {
     text-align: right;
     color: #fff; }
@@ -773,3 +774,9 @@ svg.svg-slack {
 
 .contacts .por {
   height: 4em; }
+
+textarea {
+  max-width: 250px;
+  max-height: 100px;
+  min-width: 100%;
+  min-height: 30%; }
