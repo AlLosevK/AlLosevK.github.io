@@ -1,7 +1,7 @@
 $('.review-slider').slick({
     dots: true,
     infinite: true,
-    speed: 3000,
+    speed: 1000,
     slidesToShow: 1,
     autoplay: true,
     arrows: false,

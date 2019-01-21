@@ -516,7 +516,7 @@ svg.svg-slack {
       border-bottom: 2px solid #1d242b;
       padding: 1px 7px;
       font-size: 18px;
-      background-color: transparent; }
+      background-color: rgba(0, 0, 0, 0); }
       .contacts__form-item:focus {
         border-bottom: 5px solid #0077c0;
         -webkit-transition: all 0.2s;
