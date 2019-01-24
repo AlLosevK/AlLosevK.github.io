@@ -389,7 +389,8 @@ svg.svg-slack {
   background-color: #fafafa;
   color: #1d242b; }
   .portfolio-item {
-    margin: 0 0 2em; }
+    margin: 0 0 2em;
+    max-height: 580px; }
   .portfolio-title {
     text-transform: uppercase;
     font-size: 2em;
@@ -757,7 +758,7 @@ svg.svg-slack {
       text-align: left; }
   .main-content__btn-mob {
     display: block;
-    width: 70%; }
+    width: 100%; }
   .main-content__form {
     display: none;
     position: fixed;
