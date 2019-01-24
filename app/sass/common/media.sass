@@ -13,12 +13,20 @@
         left: -18.5%
         top: -9%
         background-size: 97% 61.6%
+    &-discount
+      &:after
+        top: -160%
+        left: 150%
   .contacts
     &__form
       &-message
         max-height: 120px
     &__icon
       width: 32%
+  .promo
+    &__item
+      width: 50%
+      margin-bottom: 20px
 
 @media (max-width: 991px)
   .container
@@ -71,6 +79,8 @@
         &-mob
           display: block
           text-align: right
+    &-macbook
+      max-width: calc(100% - 260px)
   .header
     & .container
       width: 95vw

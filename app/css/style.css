@@ -308,15 +308,15 @@ svg.svg-slack {
   .main-macbook {
     top: 0;
     left: 0;
-    max-width: -webkit-calc(100% - 460px);
-    max-width: calc(100% - 460px);
+    max-width: -webkit-calc(100% - 320px);
+    max-width: calc(100% - 320px);
     height: auto;
     display: block;
     z-index: 10000; }
   .main-content {
     text-align: right;
     color: #fff;
-    max-width: 440px; }
+    max-width: 300px; }
     .main-content > .container-col {
       -webkit-box-align: end;
       -webkit-align-items: flex-end;
@@ -599,10 +599,16 @@ svg.svg-slack {
     top: -9%;
     -webkit-background-size: 97% 61.6%;
             background-size: 97% 61.6%; }
+  .pseudo-discount:after {
+    top: -160%;
+    left: 150%; }
   .contacts__form-message {
     max-height: 120px; }
   .contacts__icon {
-    width: 32%; } }
+    width: 32%; }
+  .promo__item {
+    width: 50%;
+    margin-bottom: 20px; } }
 
 @media (max-width: 991px) {
   .container {
@@ -668,6 +674,9 @@ svg.svg-slack {
     .main-content__title-mob {
       display: block;
       text-align: right; }
+  .main-macbook {
+    max-width: -webkit-calc(100% - 260px);
+    max-width: calc(100% - 260px); }
   .header .container {
     width: 95vw;
     margin: 0 auto 0 0; }
