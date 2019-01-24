@@ -390,7 +390,7 @@ svg.svg-slack {
   color: #1d242b; }
   .portfolio-item {
     margin: 0 0 2em;
-    max-height: 580px; }
+    min-height: 580px; }
   .portfolio-title {
     text-transform: uppercase;
     font-size: 2em;
