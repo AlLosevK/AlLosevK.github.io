@@ -312,7 +312,7 @@ svg.svg-slack {
     max-width: calc(100% - 320px);
     height: auto;
     display: block;
-    z-index: 10000; }
+    z-index: 2; }
   .main-content {
     text-align: right;
     color: #fff;
@@ -389,8 +389,7 @@ svg.svg-slack {
   background-color: #fafafa;
   color: #1d242b; }
   .portfolio-item {
-    margin: 0 0 2em;
-    min-height: 580px; }
+    margin: 0 0 2em; }
   .portfolio-title {
     text-transform: uppercase;
     font-size: 2em;
@@ -616,10 +615,6 @@ svg.svg-slack {
     width: 700px; }
   .review {
     padding: 0 0 5em; }
-    .review-item {
-      min-height: 420px; }
-      .review-item__info {
-        min-height: 86px; }
   .pseudo-macbook:before {
     left: -5%; }
   .pseudo-macbook:after {
@@ -685,12 +680,8 @@ svg.svg-slack {
     margin: 0 auto 0 0; }
   .portfolio__slider {
     margin-bottom: 0; }
-  .portfolio-item {
-    min-height: 420px; }
   .slick-dotted.slick-slider {
     margin-bottom: 0; }
-  .review-item__info {
-    min-height: 108px; }
   .contacts__form {
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -749,60 +740,65 @@ svg.svg-slack {
   .pseudo-avatar::before {
     top: -7%; }
   .contacts__form {
-    width: 100%; }
-  .portfolio-item {
-    min-height: 250px; }
-  .main-content .container__col {
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start; }
-  .main-content__title {
-    display: none; }
-    .main-content__title-mob {
-      display: block;
-      text-align: left; }
-  .main-content__btn-mob {
-    display: block;
-    width: 100%; }
-  .main-content__form {
-    display: none;
-    position: fixed;
-    z-index: 3;
-    -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-    top: 5%;
-    left: 50%;
-    min-width: 250px;
-    width: 80vw;
-    height: 70vh;
-    background-color: #0077c0;
-    padding: 40px 20px; }
-    .main-content__form.is-active {
-      display: block; }
-  .main-content__background-mob {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: #000;
-    opacity: 0.8;
-    z-index: 2; }
-    .main-content__background-mob.is-active {
-      display: block; }
-  .main-macbook {
-    top: 0%;
-    right: 150%; }
-    .main-macbook img {
-      width: 240px;
-      height: 210px; }
-  .main .feedback {
-    margin: 0 auto; }
-    .main .feedback__link {
-      width: 16%; } }
+    width: 90%; }
+  .main {
+    padding-bottom: 3.5em; }
+    .main-content {
+      margin-left: -webkit-calc(100% - 220px);
+      margin-left: calc(100% - 220px); }
+      .main-content .container__col {
+        -webkit-box-align: start;
+        -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+                align-items: flex-start; }
+      .main-content__title {
+        display: none; }
+        .main-content__title-mob {
+          display: block;
+          text-align: left; }
+      .main-content__btn-mob {
+        display: block;
+        width: 100%; }
+      .main-content__form {
+        display: none;
+        position: fixed;
+        z-index: 3;
+        -webkit-transform: translate(-50%, 0);
+            -ms-transform: translate(-50%, 0);
+                transform: translate(-50%, 0);
+        top: 5%;
+        left: 50%;
+        min-width: 250px;
+        width: 80vw;
+        height: 70vh;
+        background-color: #0077c0;
+        padding: 40px 20px; }
+        .main-content__form.is-active {
+          display: block; }
+      .main-content__background-mob {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 2; }
+        .main-content__background-mob.is-active {
+          display: block; }
+    .main-macbook {
+      top: 15%;
+      left: -35%;
+      min-width: 250px;
+      position: absolute; }
+      .main-macbook img {
+        width: 240px;
+        height: 210px; }
+    .main .feedback {
+      margin: 4em auto 0; }
+      .main .feedback__link {
+        width: 16%; } }
 
 .feedback {
   padding: 5px 10px;

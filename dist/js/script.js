@@ -47,3 +47,25 @@ $(document).ready(function (){
     $(".main-content__background-mob, .main-content__form").removeClass("is-active");
   });
 });
+
+$(document).ready(function(){
+  var maxH = 0;
+  $(".review-item").each(function () {
+    var h_block = parseInt($(this).height());
+    if(h_block > maxH) {
+      maxH = h_block;
+    };
+  });
+  $(".review-item").height(maxH);
+});
+
+$(document).ready(function(){
+  var maxH = 0;
+  $(".portfolio-item").each(function () {
+    var h_block = parseInt($(this).height());
+    if(h_block > maxH) {
+      maxH = h_block;
+    };
+  });
+  $(".portfolio-item").height(maxH);
+});
