@@ -108,7 +108,10 @@ gulp.task('img', function () {
 gulp.task('build', ['clean', 'sass', 'pug', 'scripts', 'img'], function () {
 
     var buildCss = gulp.src([ // Переносим библиотеки в продакшен
-        'app/css/style.css'
+        'app/css/style.css',
+        'app/css/slick.css',
+        'app/css/slick-theme.css',
+        'app/css/normalize.css'
         ])
         .pipe(gulp.dest('dist/css'))
 
