@@ -678,6 +678,9 @@ svg.svg-slack {
   .header .container {
     width: 95vw;
     margin: 0 auto 0 0; }
+  .header__nav {
+    width: -webkit-calc(100% - 230px);
+    width: calc(100% - 230px); }
   .portfolio__slider {
     margin-bottom: 0; }
   .slick-dotted.slick-slider {
