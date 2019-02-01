@@ -1,5 +1,5 @@
 .main
-    .container.container__wrap          
+    .container.container__wrap
         img.main-macbook(src="img/macbook.png", alt="")
         .main-content
             .container__col
@@ -8,10 +8,10 @@
                 h2.main-content__descr Александр Лосев
                 button.main-content__btn.main-content__btn-mob.main-content__form-item(type="submit") Оставить заявку
                 div.main-content__background-mob
-                form.main-content__form.container__col(name="main_form")
-                    input.main-content__name.main-content__form-item(type="text" placeholder="Имя")
-                    input.main-content__email.main-content__form-item(type="text" placeholder="E-Mail")
-                    textarea.main-content__message.main-content__form-item(type="text" placeholder="Сообщение")
+                form.main-content__form.container__col(name="main_form" action="dist/send.php")
+                    input.main-content__name.main-content__form-item(type="text" name="name" placeholder="Имя" required)
+                    input.main-content__email.main-content__form-item(type="text" name="email" placeholder="E-Mail" required)
+                    textarea.main-content__message.main-content__form-item(type="text" name="message" placeholder="Сообщение" required)
                     button.main-content__btn.main-content__form-item(type="submit") Оставить заявку
         .feedback
             a.feedback__link
