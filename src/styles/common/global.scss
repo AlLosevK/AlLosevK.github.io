@@ -70,13 +70,16 @@ a {
 .container {
   width: 1280px;
   margin: 0 auto;
-
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  @include media-tablet {
+    width: 88%;
+  }
 }
 
 section {
@@ -84,6 +87,10 @@ section {
   padding: 150px 0 60px;
   position: relative;
   z-index: 2;
+
+  @include media-tablet {
+    padding: 130px 0 60px;
+  }
 }
 
 .bg {
@@ -93,6 +100,6 @@ section {
   height: 100vh;
   z-index: 1;
   background-image: url("../img/Rainbow-Vortex.svg");
-  background-size: 100vw 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
 }
