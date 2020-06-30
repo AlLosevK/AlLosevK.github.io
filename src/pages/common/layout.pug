@@ -1,0 +1,20 @@
+doctype html
+html(lang="ru")
+    block head
+        head
+            meta(charset="utf-8")
+            title Title your site
+            meta(content="width=device-width, initial-scale=1" name="viewport")
+            meta(content="ie=edge" http-equiv="x-ua-compatible")
+            link(rel="stylesheet" href="css/style.min.css")
+    body
+        include svg.pug
+        .bg
+        block header
+            include header
+        block content
+        block footer
+            include footer
+        block scripts
+            script(src='js/main.min.js')
+        <div style="visibility: hidden;">Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
