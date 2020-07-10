@@ -5,7 +5,7 @@
 *::after {
     box-sizing: inherit;
     font-family: $font;
-    line-height: 1.5em;
+    line-height: 1.2em;
 }
 
 html {
@@ -48,7 +48,7 @@ a {
       transition-duration: .7s;
       transition-timing-function: ease-in-out;
       transition-delay: 0s;
-      background-color: $blue;
+      background-color: $yellow;
     }
   }
 
@@ -99,7 +99,8 @@ section {
   width: 100vw;
   height: 100vh;
   z-index: 1;
-  background-image: url("../img/bg2.jpg");
+  background-image: url("../img/bg.png");
+  background-color: $black;
   background-repeat: no-repeat;
   background-size: cover;
 }

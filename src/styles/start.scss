@@ -8,25 +8,25 @@
 
   &__title {
     font-size: 80px;
-    color: $deepBlue;
+    color: $green;
     margin: 0;
     transition: all .7s;
-    margin: 0 10% 10% 0;
+    margin: 0 5% 10% 0;
 
     @include media-tablet {
       font-size: 60px;
     }
 
     & span {
-      color: $black;
+      color: $yellow;
       transition: all .7s;
     }
 
     &:hover {
-      color: $blue;
+      color: $yellow;
 
       span {
-        color: $deepBlue;
+        color: $green;
       }
     }
   }
