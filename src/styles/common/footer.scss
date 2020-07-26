@@ -1,6 +1,49 @@
 .footer {
-    position: fixed;
-    width: 100vw;
-    top: 90vh;
-    z-index: 3;
+  position: fixed;
+  width: 100vw;
+  top: 90vh;
+  z-index: 3;
+
+  &__copyright {
+    color: $indigo;
+    font-size: 15px;
+  }
+
+  &__social {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+  }
+}
+
+.social {
+  &__link {
+    color: $indigo;
+  }
+
+  &__icon {
+    color: $indigo;
+    font-size: 2em;
+
+    &:hover {
+      &.icon-upwork {
+        color: $upwork;
+      }
+      &.icon-fb {
+        color: $fb;
+      }
+      &.icon-vk {
+        color: $vk;
+      }
+      &.icon-google {
+        color: $google;
+      }
+      &.icon-github {
+        color: $github;
+      }
+    }
+  }
 }

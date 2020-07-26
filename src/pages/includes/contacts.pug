@@ -1,3 +1,26 @@
 section.contacts#contacts
   .container
-    h1 Contacts
+    h1.contacts__title Contacts
+    h1.contacts__title Testimonials
+    form.contacts__form(action="post")
+      .form__item
+        input.form__pole#name(type="text" placeholder="Your Name")
+        span.form__border
+      .form__item
+        input.form__pole#email(type="email" placeholder="Your Email")
+        span.form__border
+      textarea.form__item#descr(type="text" spellcheck="false" placeholder="Summarize your project")
+    .contacts__testimonials.swiper-container
+      .swiper-wrapper
+        .testimonials__item.swiper-slide
+          q.feedback__content I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!
+          cite.feedback__author -Teodor Flonta
+        .testimonials__item.swiper-slide
+          q.feedback__content I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!
+          cite.feedback__author -Teodor Flonta
+        .testimonials__item.swiper-slide
+          q.feedback__content I worked beautifully with Aleksander on this project. He paid attention to detail, communicated well with me and finished ahead of schedule. I couldn't hope for more. I will hire him again for sure. Thanks Aleksander!
+          cite.feedback__author -Teodor Flonta
+      .swiper-button-next
+      .swiper-button-prev
+        

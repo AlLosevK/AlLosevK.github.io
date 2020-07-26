@@ -6,12 +6,12 @@
   &__title {
     font-size: 50px;
     margin: 0;
-    color: $green;
+    color: $indigo;
   }
 
   &__subtitle {
     font-size: 28px;
-    color: $green;
+    color: $indigo;
     text-align: center;
   }
 
@@ -53,8 +53,12 @@
       background: url("../img/Content Brain.jpg") no-repeat 0 0 /100% 100%;
     }
 
+    &-mvix {
+      background: url("../img/mvix.jpg") no-repeat 0 0 /100% 100%;
+    }
+
     &:hover {
-      box-shadow: 0 0px 25px $yellow,0 0px 50px rgba(250,250,250,.22);
+      box-shadow: 0 0px 25px $orange,0 0px 50px rgba(250,250,250,.22);
 
       .item {
         &__title {
@@ -76,13 +80,14 @@
     visibility: hidden;
     grid-row: 1;
     margin: 0;
-    color: $yellow;
+    color: $orange;
+    font-size: 35px;
   }
 
   &__tags {
     visibility: hidden;
     grid-row: 3;
-    color: $yellow;
+    color: $orange;
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
@@ -96,26 +101,26 @@
     grid-template-rows: 30px 1fr 20px;
     width: 100%;
     height: 100%;
-    background-color: $green;
-    opacity: .8;
+    background-color: rgba(48, 57, 96, .9);
     border-radius: 15px;
   }
 }
 
 .tag {
   margin-right: 8px;
-  padding: 3px;
+  padding: 3px 6px;
   text-transform: uppercase;
-  font-size: 12px;
-  background: $green;
-  color: $yellow;
+  font-size: 15px;
+  background: $indigo;
+  color: $orange;
+  border-radius: 3px;
 
   &-ttn {
     text-transform: none;
   }
 
   &:nth-child(2n) {
-    background: $git;
+    background: $github;
   }
 
   &:nth-child(3n) {

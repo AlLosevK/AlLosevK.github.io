@@ -1,0 +1,148 @@
+.contacts {
+  padding-top: 18%;
+  .container {
+    background: lighten($black, 7%);
+    border-radius: 30px;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 40px 1fr;
+    grid-template-columns: 49% 49%;
+    grid-row-gap: 50px;
+  }
+
+  &__title {
+    width: 100%;
+    margin: 0;
+    color: $indigo;
+    grid-row: 1;
+  }
+
+  &__form {
+    width: 100%;
+    grid-row: 2;
+    grid-column: 1;
+
+    a {
+      display: inline-block;
+      z-index: 5;
+    }
+  }
+
+  &__testimonials {
+    width: 100%;
+    grid-row: 2;
+    grid-column: 2;
+
+    .swiper {
+      &-slide {
+        width: 80% !important;
+        margin: 0 10%;
+      }
+
+      &-button {
+        &-next,
+        &-prev {
+          &::after {
+            font-size: 20px;
+            font-weight: 800;
+            color: $indigo;
+            transition: all .4s;
+          }
+          &:hover {
+            &:after {
+              color: $orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.form {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__item {
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: $indigo;
+    background: transparent;
+    // border-bottom: 3px solid $indigo;
+    position: relative;
+    z-index: 3;
+    outline: none;
+
+    &#descr {
+      min-width: 300px;
+      max-width: 595px;
+      max-height: 250px;
+    }
+  }
+
+  &__pole {
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 2px solid $indigo;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: transparent;
+    color: $indigo;
+    transition: 0.4s;
+
+    &:focus {
+      outline: none;
+      color: $orange;
+
+      & ~ .form__border {
+        width: 100%;
+        transition: 0.4s;
+        left: 0;
+      }
+    }
+  }
+
+  &__border {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 0;
+    height: 3px;
+    background-color: $orange;
+    transition: 0.4s;
+
+  }
+}
+
+.testimonials {
+  &__item {
+
+  }
+}
+
+.feedback {
+  &__content {
+    font-size: 20px;
+    color: $indigo;
+  }
+
+  &__author {
+    font-size: 15px;
+    display: block;
+    font-style: italic;
+    font-weight: 100;
+    color: $orange;
+    margin-top: 30px;
+  }
+}

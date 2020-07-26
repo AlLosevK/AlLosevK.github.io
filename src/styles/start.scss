@@ -8,7 +8,7 @@
 
   &__title {
     font-size: 80px;
-    color: $green;
+    color: $indigo;
     margin: 0;
     transition: all .7s;
     margin: 0 5% 10% 0;
@@ -18,15 +18,15 @@
     }
 
     & span {
-      color: $yellow;
+      color: $orange;
       transition: all .7s;
     }
 
     &:hover {
-      color: $yellow;
+      color: $orange;
 
       span {
-        color: $green;
+        color: $indigo;
       }
     }
   }

@@ -7,9 +7,11 @@ html(lang="ru")
             meta(content="width=device-width, initial-scale=1" name="viewport")
             meta(content="ie=edge" http-equiv="x-ua-compatible")
             link(rel="stylesheet" href="css/style.min.css")
+            link(rel="stylesheet" href="css/swiper-bundle.min.css")
     body
         include svg.pug
         .bg
+        .overlay
         block header
             include header
         block content
@@ -17,4 +19,4 @@ html(lang="ru")
             include footer
         block scripts
             script(src='js/main.min.js')
-        <div style="visibility: hidden;">Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <div style="visibility: hidden;height:0px;width:0px;">Icons made by <a href="https://www.flaticon.com/authors/smartline" title="Smartline">Smartline</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

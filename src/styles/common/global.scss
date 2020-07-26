@@ -48,7 +48,7 @@ a {
       transition-duration: .7s;
       transition-timing-function: ease-in-out;
       transition-delay: 0s;
-      background-color: $yellow;
+      background-color: $orange;
     }
   }
 
@@ -100,7 +100,14 @@ section {
   height: 100vh;
   z-index: 1;
   background-image: url("../img/bg.png");
-  background-color: $black;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background-color: rgba(244, 246, 255, .65);
 }
