@@ -29,21 +29,24 @@
     font-size: 2em;
 
     &:hover {
-      &.icon-upwork {
-        color: $upwork;
+      &.icon {
+        color: $orange;
       }
-      &.icon-fb {
-        color: $fb;
-      }
-      &.icon-vk {
-        color: $vk;
-      }
-      &.icon-google {
-        color: $google;
-      }
-      &.icon-github {
-        color: $github;
-      }
+      // &.icon-upwork {
+      //   color: $upwork;
+      // }
+      // &.icon-fb {
+      //   color: $fb;
+      // }
+      // &.icon-vk {
+      //   color: $vk;
+      // }
+      // &.icon-google {
+      //   color: $google;
+      // }
+      // &.icon-github {
+      //   color: $github;
+      // }
     }
   }
 }
