@@ -8,19 +8,41 @@
     grid-template-rows: 40px 1fr;
     grid-template-columns: 49% 49%;
     grid-row-gap: 50px;
+
+    @include media-tablet-horizontal {
+      grid-template-columns: 90%;
+      grid-template-rows: 40px 1fr 40px 1fr;
+    }
   }
 
   &__title {
     width: 100%;
     margin: 0;
     color: $indigo;
-    grid-row: 1;
+    grid-row: auto;
+
+    &:first-child {
+      @include media-tablet-horizontal {
+        grid-row: 3;
+      }
+    }
+
+    &:last-child {
+      @include media-tablet-horizontal {
+        grid-row: 1;
+      }
+    }
   }
 
   &__form {
     width: 100%;
     grid-row: 2;
     grid-column: 1;
+
+    @include media-tablet-horizontal {
+      grid-row: 4;
+      grid-column: 1;
+    }
 
     a {
       display: inline-block;
@@ -32,6 +54,11 @@
     width: 100%;
     grid-row: 2;
     grid-column: 2;
+
+    @include media-tablet-horizontal {
+      grid-row: 2;
+      grid-column: 1;
+    }
 
     .swiper {
       &-slide {
