@@ -63,11 +63,13 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
+    "fullpage.js": "^3.0.9",
     "gulp-cheerio": "^1.0.0",
     "gulp-replace": "^1.0.0",
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgmin": "^2.2.0",
-    "jquery": "^3.5.0",
+    "jquery": "^3.5.1",
+    "jquery-scrollify": "^1.0.20",
     "normalize.css": "^8.0.1",
     "swiper": "^6.0.2"
   },
