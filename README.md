@@ -4,17 +4,17 @@
 
 
 ## Treprint-Promo
-[demo] (https://allosevk.github.io/top-level/tree/main/dist)
-[code] (https://github.com/AlLosevK/top-level/tree/main/dist)
+[demo] (https://allosevk.github.io/top-level/dist)
+[code] (https://github.com/AlLosevK/treprint-promo/tree/main/dist)
 
 
 ## Mvix-New APP-FOLDER
-[demo] (https://allosevk.github.io/top-level/tree/main/dist)
-[code] (https://github.com/AlLosevK/top-level/tree/main/dist)
+[demo] (https://allosevk.github.io/mvix-new/dist)
+[code] (https://github.com/AlLosevK/mvix-new/tree/main/dist)
 
 
 ## Mvix
-[demo] (https://allosevk.github.io/top-level/tree/main/dist)
+[demo] (https://allosevk.github.io/mvix/dist)
 [code] (https://github.com/AlLosevK/top-level/tree/main/dist)
 
 
