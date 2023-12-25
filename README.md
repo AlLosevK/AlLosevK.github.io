@@ -51,37 +51,29 @@
 [try demo](https://allosevk.github.io/specteh/dist)  |||||||  [code](https://github.com/AlLosevK/specteh/tree/main/dist)
 
 
-## TTArena |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/TTArena/dist)  |||||||  [code](https://github.com/AlLosevK/TTArena/tree/main/dist)
-
-
 ## AlmaGames |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/AlmaGames/dist)  |||||||  [code](https://github.com/AlLosevK/AlmaGames/tree/main/dist)
-
-
-## Arena 7D |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/Arena7D/dist)  |||||||  [code](https://github.com/AlLosevK/Arena7D/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/mobilnye-igry/razrabotka-online-kazino/)
 
 
 ## MyItaly |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/myItaly/dist)  |||||||  [code](https://github.com/AlLosevK/myItaly/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/mobilnye-prilozheniya/razrabotka-prilojeniya-dlya-magazina-odejdi/)
 
 
 ## FantasyHearts |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/FantasyHearts/dist)  |||||||  [code](https://github.com/AlLosevK/FantasyHearts/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/mobilnye-igry/mnogopolzovatelskaya-mobile-strategy/)
 
 
 ## FoodApp |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/foodapp/dist)  |||||||  [code](https://github.com/AlLosevK/foodapp/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/mobilnye-prilozheniya/agregator-edi/)
 
 
 ## PushCoin |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/pushcoin/dist)  |||||||  [code](https://github.com/AlLosevK/pushcoin/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/sayty/razrabotka-reklamnoi-seti/)
 
 
 ## Niyama |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/niyama/dist)  |||||||  [code](https://github.com/AlLosevK/niyama/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/aydentika/aidentika-dlya-pizza-niyama/)
 
 
 ## HobSQuare |||| Maden with [Appfox.ru](https://appfox.ru)
-[try demo](https://allosevk.github.io/hobSQuare/dist)  |||||||  [code](https://github.com/AlLosevK/hobSQuare/tree/main/dist)
+[try demo](https://appfox.ru/company/portfolio/mobilnye-prilozheniya/razrabotka-seti-social/)
