@@ -8,47 +8,47 @@
 
 
 ## Mvix-New APP-FOLDER
-[try demo](https://allosevk.github.io/mvix-new/dist)   |||||||   [code](https://github.com/AlLosevK/mvix-new/tree/main/dist)
+[try demo](https://allosevk.github.io/mvix-new/app/)   |||||||   [code](https://github.com/AlLosevK/mvix-new/tree/main/)
 
 
 ## Mvix
-[try demo](https://allosevk.github.io/mvix/dist)  |||||||  [code](https://github.com/AlLosevK/mvix/tree/main/dist)
+[try demo](https://allosevk.github.io/mvix/build/)  |||||||  [code](https://github.com/AlLosevK/mvix/)
 
 
 ## GoodWash
-[try demo](https://allosevk.github.io/goodwash/dist)  |||||||  [code](https://github.com/AlLosevK/goodwash/tree/main/dist)
+[try demo](https://allosevk.github.io/goodwash/dist/)  |||||||  [code](https://github.com/AlLosevK/goodwash/tree/main/)
 
 
 ## MegaMenu
-[try demo](https://allosevk.github.io/MegaMenu/dist)  |||||||  [code](https://github.com/AlLosevK/MegaMenu/tree/main/dist)
+[try demo](https://allosevk.github.io/MegaMenu/app/)  |||||||  [code](https://github.com/AlLosevK/MegaMenu/)
 
 
 ## Top Level
-[try demo](https://allosevk.github.io/top-level/dist)  |||||||  [code](https://github.com/AlLosevK/top-level/tree/main/dist)
+[try demo](https://allosevk.github.io/top-level/dist/)  |||||||  [code](https://github.com/AlLosevK/top-level/)
 
 
 ## Vehicle Selection
-[try demo](https://allosevk.github.io/Vehicle-Selection/dist)  |||||||  [code](https://github.com/AlLosevK/Vehicle-Selection/tree/main/dist)
+[try demo](https://allosevk.github.io/Vehicle-Selection/dist/)  |||||||  [code](https://github.com/AlLosevK/Vehicle-Selection/)
 
 
 ## Slowave
-[try demo](https://allosevk.github.io/slowaveTemplate/dist)  |||||||  [code](https://github.com/AlLosevK/slowaveTemplate/tree/main/dist)
+[try demo](https://allosevk.github.io/slowaveTemplate/dist/)  |||||||  [code](https://github.com/AlLosevK/slowaveTemplate/)
 
 
 ## ContentBrain
-[try demo](https://allosevk.github.io/ContentBrain/dist)  |||||||  [code](https://github.com/AlLosevK/ContentBrain/tree/main/dist)
+[try demo](https://allosevk.github.io/ContentBrain/dist/)  |||||||  [code](https://github.com/AlLosevK/ContentBrain/)
 
 
 ## toxin FSD education
-[try demo](https://allosevk.github.io/toxin_FSD_education/dist)  |||||||  [code](https://github.com/AlLosevK/toxin_FSD_education/tree/main/dist)
+[try demo](https://allosevk.github.io/toxin_FSD_education/build/)  |||||||  [code](https://github.com/AlLosevK/toxin_FSD_education/)
 
 
 ## Bal-IDF
-[try demo](https://allosevk.github.io/Bal-IDF/dist)  |||||||  [code](https://github.com/AlLosevK/Bal-IDF/tree/main/dist)
+[try demo](https://allosevk.github.io/Bal-IDF/dist/)  |||||||  [code](https://github.com/AlLosevK/Bal-IDF/)
 
 
 ## specteh
-[try demo](https://allosevk.github.io/specteh/dist)  |||||||  [code](https://github.com/AlLosevK/specteh/tree/main/dist)
+[try demo](https://allosevk.github.io/specteh/)  |||||||  [code](https://github.com/AlLosevK/specteh/)
 
 
 ## AlmaGames |||| Maden with [Appfox.ru](https://appfox.ru)
