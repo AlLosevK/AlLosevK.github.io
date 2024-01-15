@@ -7,10 +7,6 @@
 [try demo](https://allosevk.github.io/treprint-promo/dist)   |||||||   [code](https://github.com/AlLosevK/treprint-promo/tree/main/dist)
 
 
-## Mvix-New APP-FOLDER
-[try demo](https://allosevk.github.io/mvix-new/app/)   |||||||   [code](https://github.com/AlLosevK/mvix-new/tree/main/)
-
-
 ## Mvix
 [try demo](https://allosevk.github.io/mvix/build/)  |||||||  [code](https://github.com/AlLosevK/mvix/)
 
@@ -31,24 +27,8 @@
 [try demo](https://allosevk.github.io/Vehicle-Selection/dist/)  |||||||  [code](https://github.com/AlLosevK/Vehicle-Selection/)
 
 
-## Slowave
-[try demo](https://allosevk.github.io/slowaveTemplate/dist/)  |||||||  [code](https://github.com/AlLosevK/slowaveTemplate/)
-
-
 ## ContentBrain
 [try demo](https://allosevk.github.io/ContentBrain/dist/)  |||||||  [code](https://github.com/AlLosevK/ContentBrain/)
-
-
-## toxin FSD education
-[try demo](https://allosevk.github.io/toxin_FSD_education/build/)  |||||||  [code](https://github.com/AlLosevK/toxin_FSD_education/)
-
-
-## Bal-IDF
-[try demo](https://allosevk.github.io/Bal-IDF/dist/)  |||||||  [code](https://github.com/AlLosevK/Bal-IDF/)
-
-
-## specteh
-[try demo](https://allosevk.github.io/specteh/)  |||||||  [code](https://github.com/AlLosevK/specteh/)
 
 
 ## AlmaGames |||| Maden with [Appfox.ru](https://appfox.ru)
